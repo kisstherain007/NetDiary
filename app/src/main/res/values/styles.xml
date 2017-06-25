@@ -1,0 +1,27 @@
+<resources>
+
+    <style name="product_name_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/app_text_size_medium</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="product_name_sub_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/app_text_size_xsmall</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="display_pic_img_style">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@color/black</item>
+    </style>
+
+    <style name="recyclerview_background">
+        <item name="android:background">@color/white</item>
+    </style>
+</resources>

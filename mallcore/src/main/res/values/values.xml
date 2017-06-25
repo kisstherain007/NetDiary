@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="comm_v_margin">16dip</dimen>
+    <item name="layoutEmpty" type="id"/>
+    <item name="layoutLoadFailed" type="id"/>
+    <item name="layoutLoading" type="id"/>
+    <item name="txtLoadEmpty" type="id"/>
+    <item name="txtLoadFailed" type="id"/>
+    <item name="recycleview" type="id"/>
+    <style name="LoadingProgressBar">
+        android:indeterminateDrawable="@drawable/loading_bar1
+    </style>
+    <string name="comm_error_noneNetwork">没有网络连接</string>
+    <string name="comm_error_resultIllegal">数据解析出错</string>
+    <string name="comm_error_timeout">网络不给力</string>
+    <string name="comm_footer_faild">加载失败，重新加载</string>
+    <string name="comm_footer_loading">正在加载...</string>
+    <string name="comm_footer_more">加载更多</string>
+    <string name="comm_footer_pagingend">全部加载完了</string>
+    <string name="comm_hint_copied">已经复制 %s</string>
+    <string name="comm_reload_hint">刷新看看</string>
+
+    <dimen name="comm_footer_height">58dip</dimen>
+
+    <dimen name="title_height">45dp</dimen>
+
+    <!--字体大小-->
+    <dimen name="textsize_xxlarge">28sp</dimen>
+    <dimen name="textsize_xlarge">22sp</dimen>
+    <dimen name="textsize_large">18sp</dimen>
+    <dimen name="textsize_xmiddle">16sp</dimen>
+    <dimen name="textsize_middle">14sp</dimen>
+    <dimen name="textsize_small">12sp</dimen>
+    <dimen name="textsize_xsmall">8sp</dimen>
+    <dimen name="textsize_xxsmall">5sp</dimen>
+
+</resources>

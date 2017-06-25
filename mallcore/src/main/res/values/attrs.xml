@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="theme_color" format="reference|color"/>
+    <attr name="theme_statusbar_color" format="reference|color"/>
+    <!--主题背景色-->
+    <attr name="theme_background" format="reference|color"/>
+    <!--flat样式的TextView-->
+    <attr name="flat_text" format="reference|color"/>
+    <attr name="fits_windows" format="boolean"/>
+    <attr name="text_title" format="reference|color"/>
+    <attr name="text_subhead" format="reference|color"/>
+    <attr name="text_body" format="reference|color"/>
+    <!--timeline的分割线-->
+    <attr name="divider_timeline_item" format="reference|color"/>
+    <!--timeline的背景-->
+    <attr name="bg_timline_item" format="reference"/>
+    <!--左侧菜单的Header的高度-->
+    <attr name="menu_header_height" format="dimension"/>
+
+    <declare-styleable name="BottomNavigationItem">
+        <attr name="icon" format="reference"/>
+        <attr name="label" format="string"/>
+        <attr name="labelColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="BottomNavigationBar">
+        <attr name="menu" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="VerticalTabLayout">
+        <attr name="indicator_color" format="color" />
+        <attr name="indicator_width" format="dimension" />
+        <attr name="indicator_corners" format="dimension" />
+        <attr name="indicator_gravity" format="enum">
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+            <enum name="fill" value="119" />
+        </attr>
+        <attr name="tab_margin" format="dimension" />
+        <attr name="tab_mode" format="enum">
+            <enum name="fixed" value="10" />
+            <enum name="scrollable" value="11" />
+        </attr>
+        <attr name="tab_height" format="dimension">
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="JPTabBar">
+        <attr name="TabNormalColor" format="reference|color"/>
+        <attr name="TabSelectColor" format="reference|color"/>
+        <attr name="TabSelectBg" format="reference|color"/>
+        <attr name="TabTextSize" format="dimension|reference"/>
+        <attr name="TabIconSize" format="dimension|reference"/>
+        <attr name="TabIconFilter" format="boolean"/>
+        <attr name="TabMargin" format="dimension|reference"/>
+        <attr name="TabAnimate" format="enum">
+            <enum name="Flip" value="1"/>
+            <enum name="Rotate" value="2"/>
+            <enum name="Scale" value="3"/>
+            <enum name="Jump" value="4"/>
+            <enum name="None" value="5"/>
+        </attr>
+        <attr name="TabMiddleBottomDis" format="dimension|reference"/>
+        <attr name="TabMiddleView" format="reference"/>
+        <attr name="TabMiddleHMargin" format="dimension|reference"/>
+        <attr name="BadgeColor" format="reference|color"/>
+        <attr name="BadgePadding" format="dimension|reference"/>
+        <attr name="BadgeTextSize" format="reference|dimension"/>
+        <attr name="BadgeVerticalMargin" format="reference|dimension"/>
+        <attr name="BadgeHorizonalMargin" format="reference|dimension"/>
+    </declare-styleable>
+
+</resources>

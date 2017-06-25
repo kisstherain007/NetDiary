@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mall.android.ui.widget.MarqueeView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="vertical">
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoStart="true"
+        android:background="#fff"
+        android:flipInterval="3000"
+        android:inAnimation="@anim/marquee_anim_in"
+        android:outAnimation="@anim/marquee_anim_out"
+        android:paddingLeft="30dp"/>
+
+
+</com.mall.android.ui.widget.MarqueeView>

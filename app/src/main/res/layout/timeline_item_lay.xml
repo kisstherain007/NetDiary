@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/shap_gray_line"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:showDividers="middle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/product_default_item_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/product_default_item_inner_margin">
+
+            <ImageView
+                android:id="@+id/images"
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:layout_marginLeft="@dimen/product_default_item_margin"
+                android:layout_marginRight="@dimen/product_default_item_margin"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ico_topic_audrey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nickname_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SomeBody"
+                    android:textColor="@color/gray_hard"
+                    android:textSize="@dimen/app_text_size_small" />
+
+                <TextView
+                    android:id="@+id/publish_time_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:paddingBottom="@dimen/product_default_item_margin"
+                    android:paddingTop="@dimen/product_default_item_margin"
+                    android:text="2天前"
+                    android:textColor="@color/gray"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/content_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="4"
+                android:text="cescee淡粉色鼎折覆餗 的顺丰到付 第三方"
+                android:textColor="@color/gray_hard"
+                android:paddingBottom="@dimen/product_default_item_inner_margin"
+                android:textSize="@dimen/app_text_size_medium_small" />
+
+            <include layout="@layout/display_view_layout"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:divider="@drawable/shap_gray_line"
+        android:orientation="horizontal"
+        android:padding="@dimen/product_default_item_margin"
+        android:paddingBottom="@dimen/product_default_item_inner_margin_small"
+        android:paddingTop="@dimen/product_default_item_inner_margin_small"
+        android:showDividers="middle">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/weixin_normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/product_default_item_margin"
+                android:gravity="center_vertical"
+                android:text="100"
+                android:textSize="@dimen/app_text_size_xsmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/weixin_normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/product_default_item_margin"
+                android:gravity="center_vertical"
+                android:text="聊天"
+                android:textSize="@dimen/app_text_size_xsmall" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
